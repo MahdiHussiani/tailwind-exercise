@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>نمونه Tailwind 4</title>
-  <link href="output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
 </head>
 <body>
-  
+    <div class="flex h-screen justify-center items-center">
+        <div class="bg-orange-200 w-80 divide-x-4 divide-green-600 grid grid-cols-4">
+            <div class="p-5 bg-lime-200">01</div>
+            <div class="p-5 bg-lime-200">02</div>
+            <div class="p-5 bg-lime-200">03</div>
+            <div class="p-5 bg-lime-200">04</div>
+        </div>
+    </div>
 <div class="flex h-screen justify-center items-center">
-  <div class="bg-orange-500 w-80 h-80 rounded-tl-2xl rounded-br-2xl"></div>
-</div>
-<hr>
-<div class="flex justify-center items-center">
-<div class="box-border size-96 border-4 p-4 mt-10 rounded-lg border-red-500">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam incidunt nobis dolores consequatur molestiae, similique corporis perferendis blanditiis molestias?
-
-  <p>box-border</p>
+    <button class="bg-lime-400 w-30 h-10 m-10 rounded hover:bg-lime-600 text-blue-950 outline outline-blue-600 outline-4 outline-offset-10 ">click</button>
 </div>
 
-<div class="box-content size-96 border-4 p-4 mt-10 round-lg border-green-500">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur laborum nobis qui iste doloribus eum sed aspernatur non doloremque.
-
-<p>box-content</p>
-</div>
+<div class="flex h-screen justify-center items-center">
+    <div class="bg-lime-200 w-80 divide-y-4 divide-red-600 divide-dotted">
+        <div class="p-5 bg-lime-600">01</div>
+        <div class="p-5 bg-lime-600">02</div>
+        <div class="p-5 bg-lime-600">03</div>
+        <div class="p-5 bg-lime-600"></div>
+    </div>
 </div>
 </body>
 </html>
